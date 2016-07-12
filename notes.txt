@@ -1,0 +1,25 @@
+colorschemes
+1) Modern & Clean
+#E37222 - tangerine
+#07889b - teal
+#66b9bf - powder
+#eeaa7b - tan
+
+2) Clean and highlighted
+#caebf2 - sky
+#a9a9a9 - carbon
+#ff383f - watermelon
+#efefef - neutral
+
+3) Elegant and sophisticated
+#0b3c5d (#ob3c5d ?) - prussian blue
+#328cc1 - sky blue
+#d9b310 - gold leaf
+#1d2731 - ivory black
+
+4) Blue Scheme 1
+#107691 base
+#E97F13 accent
+#354044 dark gray
+#f8fafa light gray
+#ffffff white
