@@ -1,0 +1,153 @@
+body {
+    font: 24px Helvetica;
+    background: #f8fafa;
+}
+
+#main {
+    min-height: 800px;
+    margin: 0px;
+    padding: 0px;
+    float: left;
+    display: flex;
+    flex-flow: row;
+}
+
+#main > article {
+    margin: 0px;
+    padding: 5px;
+    border: 0px solid #107691;
+    border-radius: 0pt;
+    background: #f8fafa;
+    flex: 3 1 60%;
+    order: 3;
+}
+
+#main > left-margin {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  background: #354044;
+  flex: 1 6 20%;
+  order: 1;
+}
+
+#main > nav {
+    margin: 0px;
+    padding: 5px;
+    border: 0px solid #107691;
+    border-radius: 0pt;
+    background: #f8fafa;
+    font-family: Trebuchet MS, sans-serif;
+    font-size: 12pt;
+    flex: 1 6 20%;
+    order: 2;
+}
+
+#main > aside {
+    margin: 0px;
+    padding: 5px;
+    border: 0px solid #107691;
+    border-radius: 0pt;
+    background: #354044;
+    flex: 1 6 20%;
+    order: 4;
+}
+
+header {
+    display: block;
+    margin: 0px;
+    padding: 5px;
+    min-height: 70px;
+    border: 1px solid #107691;
+    border-radius: 0pt;
+    background: #354044;
+    color: #f8fafa;
+}
+
+splash {
+  display: block;
+  margin: 0px;
+  padding: 5px;
+  min-height: 20px;
+  border: 1px solid #107691;
+  background: #354044;
+  color: #f8fafa;
+}
+
+footer {
+    display: block;
+    margin: 0px;
+    padding: 5px;
+    min-height: 100px;
+    border: 0px solid #107691;
+    border-radius: 0pt;
+    background: #f8fafa;
+}
+
+/* Too narrow to support three columns */
+@media all and (max-width: 640px) {
+    #main, #page {
+        flex-direction: column;
+    }
+
+    #main > article, #main > nav, #main > aside, #main > left-margin {
+    /* Return them to document order */
+        order: 0;
+    }
+
+    #main > nav, #main > aside, header, footer {
+        min-height: 50px;
+        max-height: 50px;
+    }
+
+    #main > left-margin {
+        max-height: 0px;
+    {
+}
+
+/*
+ * style for Golden Rectangle pattern
+**/
+
+#gold-rect {
+  height: 4;
+  width: 6;
+  background: #354044;
+  border: 1px solid #e97f13;
+}
+#spiral-2 {
+  height: 6;
+  width: 6;
+  background: #354044;
+  border: 1px solid #e97f13;
+}
+#spiral-3 {
+  height: 12;
+  width: 11;
+  background: #354044;
+  border: 1px solid #e97f13;
+  float: left;
+}
+#spiral-4 {
+  height: 19;
+  width: 19;
+  background: #354044;
+  border: 1px solid #e97f13;
+  position: relative;
+  left: 35;
+  top: 14;
+}
+#spiral-5 {
+  height: 33;
+  width: 33;
+  background: #354044;
+  border: 1px solid #e97f13;
+  float: left;
+}
+#spiral-6 {
+  height: 54;
+  width: 54;
+  background: #354044;
+  border: 1px solid #e97f13;
+}
+
