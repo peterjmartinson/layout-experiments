@@ -1,0 +1,27 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Martinson Portfolio",
+  "main": "server.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peterjmartinson/layout-experiments.git"
+  },
+  "author": "Peter Martinson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/peterjmartinson/layout-experiments/issues"
+  },
+  "homepage": "https://github.com/peterjmartinson/layout-experiments#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "morgan": "^1.7.0"
+  }
+}

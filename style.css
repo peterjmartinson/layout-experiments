@@ -1,6 +1,6 @@
 body {
     font: 24px Helvetica;
-    background: #999999;
+    background: #354044;
 }
 
 header {
@@ -8,7 +8,7 @@ header {
   height: 100px;
   margin: 0px;
   padding: 0px;
-  border: 1px solid #e97f13;
+  border: 0px solid #e97f13;
   background: #354044;
 }
 
@@ -17,7 +17,7 @@ nav {
     padding: 5px;
     width: 200px;
     height: 500px;
-    border: 1px solid #e97f13;
+    border: 0px solid #e97f13;
     background: #354044;
     float: left;
 }
@@ -25,7 +25,7 @@ nav {
 #splash {
     margin: 0px;
     padding: 5px;
-    border: 1px solid #e97f13;
+    border: 0px solid #e97f13;
     background: #354044;
 }
 
@@ -34,14 +34,16 @@ nav {
     margin-right: 0px;
     margin-top: 0px;
     margin-bottom: 0px;
+    background: #354044;
     padding: 0px;
     display: block;
 }
 
 article {
     margin: 0px;
-    padding: 5px;
-    border: 1px solid #e97f13;
+    max-width: 600px;
+    padding: 10px;
+    border: 0px solid #e97f13;
     background: #354044;
     float: left;
 }
@@ -49,7 +51,7 @@ article {
 #main > aside {
     margin: 4px;
     padding: 5px;
-    border: 1px solid #e97f13;
+    border: 0px solid #e97f13;
     background: #354044;
 }
 
@@ -58,8 +60,31 @@ footer {
     margin: 0px;
     padding: 5px;
     min-height: 100px;
-    border: 1px solid #e97f13;
+    border: 0px solid #e97f13;
     background: #354044;
     clear: both;
 }
+
+p {
+    color: #f8fafa;
+    text-decoration: none;
+    font-family: Helvetica, Sans-serif;
+    font-size: 12px;
+}
+
+h1 {
+    color: #f8fafa;
+    text-decoration: none;
+    font-family: Helvetica, Sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+h2, li {
+    color: #f8fafa;
+    text-decoration: none;
+    font-family: Helvetica, Sans-serif;
+    font-size: 18px;
+}
+
 
