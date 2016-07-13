@@ -1,5 +1,7 @@
 body {
-    font: 24px Helvetica;
+    /*font-family: 'Palatino Linotype','Book Antiqua',Palatino,serif;*/
+    font-family: 'Trebuchet MS',Helvetica,sans-serif;
+    font-size: 12px;
     background: #354044;
 }
 
@@ -65,26 +67,26 @@ footer {
     clear: both;
 }
 
-p {
+p, li, a {
     color: #f8fafa;
     text-decoration: none;
-    font-family: Helvetica, Sans-serif;
     font-size: 12px;
+}
+
+a:hover {
+    color: #e97f13;
 }
 
 h1 {
     color: #f8fafa;
     text-decoration: none;
-    font-family: Helvetica, Sans-serif;
-    font-size: 22px;
+    font-size: 24px;
     font-weight: bold;
 }
 
-h2, li {
+h2 {
     color: #f8fafa;
     text-decoration: none;
-    font-family: Helvetica, Sans-serif;
     font-size: 18px;
 }
-
 
